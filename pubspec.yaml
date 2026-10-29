@@ -1,7 +1,7 @@
 name: ecob_bracket
 description: ECOB Tournament Bracket App
 publish_to: 'none'
-version: 1.0.0+1
+version: 1.0.0+2
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -11,8 +11,14 @@ dependencies:
     sdk: flutter
 
 dev_dependencies:
+flutter_launcher_icons: ^0.14.4
   flutter_test:
     sdk: flutter
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/icon.png"
+  adaptive_icon_background: "#087F5B"
+  adaptive_icon_foreground: "assets/icon.png"
 
 flutter:
   uses-material-design: true
